@@ -1,0 +1,48 @@
+{
+  "name": "redis_stater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "aws-sdk": "^2.348.0",
+    "base-64": "^0.1.0",
+    "clinic": "^5.0.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.4",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "express-session": "^1.17.0",
+    "fs": "0.0.1-security",
+    "geo-distance": "^0.2.0",
+    "geodist": "^0.2.1",
+    "geolib": "^3.2.1",
+    "geopoint": "^1.0.1",
+    "google-distance": "^1.0.1",
+    "i": "^0.3.6",
+    "joi": "^14.3.1",
+    "mongoose": "^5.8.11",
+    "ms": "^2.1.2",
+    "multer": "^1.4.2",
+    "multiparty": "^4.2.1",
+    "node-input-validator": "^4.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.2",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
